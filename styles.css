@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(#05668d, #028090) fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #f0f3bd;
+    text-decoration: solid underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid #f0f3bd 7px;
+    border-radius: 20px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+h2 {
+    color: #02c39a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #02c39a;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: solid underline;
+    color: #f0f3bd;
+}
+
+.recipes>li {
+    display: inline;
+    padding: 15px;
+}
+
+.recipes {
+    width: 400px;
+    margin: 20px auto;
+    border: solid #02c39a 3px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    color: #f0f3bd;
+    font-size: 14pt;
+}
+
+ul,
+ol {
+    color: #f0f3bd;
+    font-size: 14pt;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+ul {
+    margin-bottom: 200px;
+}
+
+img {
+    margin: 20px;
+    border: solid #f0f3bd 3px;
+    border-radius: 10px;
+    width: 300px;
+    float: left;
+}
+
+.intro {
+    display: inline;
+    float: right;
+}
+
+.description h2 {
+    text-decoration: solid underline;
+    font-size: 30px;
+}
+
+.description p {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.overflow {
+    float: left;
+    width: 50%;
+}
+
+.window {
+    border: 5px solid #f0f3bd;
+    border-radius: 50%;
+    height: 550px;
+    max-width: 550px;
+    background-color: #00a896;
+    margin: 0 auto;
+}
+
+.box {
+    border: 5px dotted #f0f3bd;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    display: block;
+}
+
+/* button {
+    border: solid 3px #028090;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #f0f3bd;
+    color: #028090;
+    font-weight: bold;
+} */
